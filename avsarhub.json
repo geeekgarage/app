@@ -1,0 +1,503 @@
+
+
+{
+  "appconfiguration": {
+    "app_name": "AvsarHub",
+    "url": "https://avsarhub.com/app-jobs/",
+    "appLanuguage": "en",
+    "isJavascriptEnable": "true",
+    "isSplashScreen": "true",
+    "isZoomFunctionality": "true",
+    "navigationStyle": "bottom_navigation",
+    "header_style": "empty_header",
+    "is_walkthrough": "true",
+    "is_webrtc": "false",
+    "is_floating_button": "false",
+    "floating_button_style": "circular",
+    "is_pull_refresh": "true",
+    "tab_style": "simple_tab",
+    "bottom_navigation": "bottom_navigation_1",
+    "walkthrough_style": "walkthrough_style_1",
+    "clear_cookie": "false",
+    "isExitPopupScreen": "true",
+    "disable_header": "true",
+    "disable_footer": "true",
+    "app_logo": "https://avsarhub.com/wp-content/uploads/2023/03/app_logo.png",
+    "floating_button": "https://avsarhub.com/upload/floating_button.png"
+  },
+  "admob": {
+    "ads_type": "admob",
+    "admobBannerID": "ca-app-pub-2941025348795243/1474634088",
+    "admobIntentialID": "ca-app-pub-2941025348795243/2998618687",
+    "admobBannerIDIOS": "ca-app-pub-2941025348795243/1474634088",
+    "admobIntentialIDIOS": "ca-app-pub-2941025348795243/2998618687",
+    "facebookBannerID": "",
+    "facebookIntentialID": "",
+    "facebookBannerIDIOS": "",
+    "facebookIntentialIDIOS": ""
+  },
+  "progressbar": {
+    "is_progressbar": "true",
+    "loaderStyle": "Wave"
+  },
+  "theme": {
+    "themeStyle": "Theme6",
+    "customColor": null,
+    "gradientColor1": null,
+    "gradientColor2": null
+  },
+  "about": {
+    "whatsAppNumber": "+917052897920",
+    "instagramUrl": "https://www.instagram.com/AvsarHub/",
+    "twitterUrl": "https://twitter.com/avsarhubb",
+    "facebookUrl": "https://www.facebook.com/AvsarHub/",
+    "callNumber": "+917052897920",
+    "snapchat": "",
+    "skype": "",
+    "messenger": "https://t.me/AvsarHub",
+    "youtube": "https://www.youtube.com/@Avsarhub",
+    "isShowAbout": "true",
+    "copyright": "Copyright © 2023  AvsarHub ❤️ for INDIA.",
+    "description": "Your One-Stop Destination for Latest Sarkari Jobs, Admit Card and Results. "
+  },
+  "onesignal_configuration": {
+    "app_id": "a0733934-d735-4afc-bbdc-a6883ba8f89c",
+    "rest_api_key": "NzQ5MGQwNmMtNzJkNS00ODA3LWFkNzMtZTc2ZGNkNmZjZTUx"
+  },
+  "splash_configuration": {
+    "first_color": "#ffffff",
+    "second_color": "#ffffff",
+    "title": "AvsarHub",
+    "enable_title": "true",
+    "title_color": "#0049ad",
+    "enable_logo": "true",
+    "enable_background": "false",
+    "splash_logo_url": "https://avsarhub.com/wp-content/uploads/2023/03/splash_logo.png",
+    "splash_background_url": "https://avsarhub.com/wp-content/uploads/2023/03/splash_background.png"
+  },
+  "exitpopup_configuration": {
+    "title": "Do you want to close the application? ",
+    "positive_text": "Yes",
+    "negative_text": "No",
+    "enable_image": "false",
+    "exit_image_url": "https://avsarhub.com/wp-content/uploads/2023/03/cancel.png"
+  },
+  "share_content": {
+    "share": "Find this amazing app for Latest Jobs Notification, Install Now - https://bit.ly/avsarhub"
+  },
+  "menu_style": [
+    {
+
+    
+      "id": "1",
+      "title": "Home",
+      "type": "bottom_navigation",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/app_jobs.png",
+      "url": "https://avsarhub.com/app-category/",
+      "status": "1",
+      "parent_id": "0",
+      "children": [
+        
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Latest Jobs",
+      "type": "bottom_navigation",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/app-admit.png",
+      "url": "https://avsarhub.com/app-jobs/",
+      "status": "1",
+      "parent_id": "0",
+      "children": [
+        
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Results",
+      "type": "Results",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/app-result.png",
+      "url": "https://avsarhub.com/app-result/",
+      "status": "1",
+      "parent_id": "0",
+      "children": [
+        
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Admit Card",
+      "type": "bottom_navigation",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/app-answer.png",
+      "url": "https://avsarhub.com/app-admit/",
+      "status": "1",
+      "parent_id": "0",
+      "children": [
+        
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Study",
+      "type": "bottom_navigation",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/study.png",
+      "url": "https://avsarhub.com/app-answer/",
+      "status": "1",
+      "parent_id": "0",
+      "children": [
+        
+      ]
+    }
+  ],
+  "header_icon": {
+    "lefticon": [
+      {
+        "id": "1",
+        "title": "Back Button 1",
+        "value": "ic_back1",
+        "image": "ic_back1.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2021-04-09 05:19:17",
+        "updated_at": "2021-04-09 05:19:17"
+      },
+      {
+        "id": "2",
+        "title": "Back Button 2",
+        "value": "ic_back2",
+        "image": "ic_back2.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2021-04-09 05:19:27",
+        "updated_at": "2021-04-09 05:19:27"
+      },
+      {
+        "id": "3",
+        "title": "Home",
+        "value": "ic_home",
+        "image": "ic_home.png",
+        "type": "event",
+        "url": null,
+        "status": "1",
+        "created_at": "2021-04-09 05:20:00",
+        "updated_at": "2021-04-09 05:20:00"
+      },
+      {
+        "id": "4",
+        "title": "Profile",
+        "value": "ic_profile",
+        "image": "ic_profile.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:20:29",
+        "updated_at": "2021-04-09 05:20:29"
+      },
+      {
+        "id": "5",
+        "title": "Close",
+        "value": "ic_close",
+        "image": "ic_close.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2021-04-09 05:20:30",
+        "updated_at": "2021-04-09 05:20:30"
+      },
+      {
+        "id": "6",
+        "title": "Search",
+        "value": "ic_search",
+        "image": "ic_search.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:20:36",
+        "updated_at": "2021-04-09 05:20:36"
+      },
+      {
+        "id": "7",
+        "title": "Add",
+        "value": "ic_add",
+        "image": "ic_add.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:20:51",
+        "updated_at": "2021-04-09 05:20:51"
+      }
+    ],
+    "righticon": [
+      {
+        "id": "1",
+        "title": "Reload",
+        "value": "ic_reload",
+        "image": "ic_reload.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2020-06-07 21:28:42",
+        "updated_at": "2020-06-07 21:28:42"
+      },
+      {
+        "id": "2",
+        "title": "Search",
+        "value": "ic_search",
+        "image": "ic_search.png",
+        "type": "url",
+        "url": "https://avsarhub.com/?s=",
+        "status": "0",
+        "created_at": "2020-06-07 21:48:16",
+        "updated_at": "2020-06-07 21:48:16"
+      },
+      {
+        "id": "3",
+        "title": "Cart",
+        "value": "ic_cart",
+        "image": "ic_cart.png",
+        "type": "url",
+        "url": "https://www.avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:11:40",
+        "updated_at": "2021-04-09 05:11:40"
+      },
+      {
+        "id": "4",
+        "title": "Settings",
+        "value": "ic_settings",
+        "image": "ic_settings.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 10:33:15",
+        "updated_at": "2021-04-09 10:33:17"
+      },
+      {
+        "id": "5",
+        "title": "Share",
+        "value": "ic_share",
+        "image": "ic_share.png",
+        "type": "event",
+        "url": null,
+        "status": "1",
+        "created_at": "2020-06-07 21:46:42",
+        "updated_at": "2020-06-07 21:46:42"
+      },
+      {
+        "id": "6",
+        "title": "Close",
+        "value": "ic_close",
+        "image": "ic_close.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2021-04-09 05:10:36",
+        "updated_at": "2021-04-09 05:10:36"
+      },
+      {
+        "id": "7",
+        "title": "Profile",
+        "value": "ic_profile",
+        "image": "ic_profile.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:11:54",
+        "updated_at": "2021-04-09 05:11:54"
+      },
+      {
+        "id": "8",
+        "title": "Message",
+        "value": "ic_message",
+        "image": "ic_message.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:12:47",
+        "updated_at": "2021-04-09 05:12:47"
+      },
+      {
+        "id": "9",
+        "title": "Notification",
+        "value": "ic_notification",
+        "image": "ic_notification.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-04-09 05:13:11",
+        "updated_at": "2021-04-09 05:13:11"
+      },
+      {
+        "id": "10",
+        "title": "Favourite",
+        "value": "ic_favourite",
+        "image": "ic_favourite.png\r\n",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:01:26",
+        "updated_at": null
+      },
+      {
+        "id": "11",
+        "title": "Add",
+        "value": "ic_add",
+        "image": "ic_add.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:01:26",
+        "updated_at": null
+      },
+      {
+        "id": "12",
+        "title": "List",
+        "value": "ic_list",
+        "image": "ic_list.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:03:34",
+        "updated_at": null
+      },
+      {
+        "id": "13",
+        "title": "Filter",
+        "value": "ic_filter",
+        "image": "ic_filter.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:03:34",
+        "updated_at": null
+      },
+      {
+        "id": "14",
+        "title": "Chat",
+        "value": "ic_chat",
+        "image": "ic_chat.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:04:24",
+        "updated_at": null
+      },
+      {
+        "id": "15",
+        "title": "About",
+        "value": "ic_about",
+        "image": "ic_about.png",
+        "type": "url",
+        "url": "https://avsarhub.com/",
+        "status": "0",
+        "created_at": "2021-06-24 17:04:24",
+        "updated_at": null
+      },
+      {
+        "id": "16",
+        "title": "QR Code",
+        "value": "ic_qr_code",
+        "image": "ic_qr_code.png",
+        "type": "event",
+        "url": null,
+        "status": "0",
+        "created_at": "2022-07-25 05:10:36",
+        "updated_at": null
+      }
+    ]
+  },
+  "walkthrough": [
+    {
+      "id": "1",
+      "title": "AvsarHub App",
+      "subtitle": "#1  India's Best Job notification App;\r\nGet all the notifications of Government jobs, PSU jobs, IT Jobs all in one place.",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03//1677293771-3.png",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "title": "Stay Alert and Up to Date!",
+      "subtitle": "With AvsarHub, you can search and apply for jobs, create alerts, and get notifications on new job openings in your field of interest. It's a one-stop solution for your job search needs.",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/1677293903-2.png",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "title": "All the Tools you need is here!",
+      "subtitle": "If you're interested in applying for the job, you can click on the \"Apply Now\" button and follow the instructions to submit your application.",
+      "image": "https://avsarhub.com/wp-content/uploads/2023/03/1677294202-4.png",
+      "status": "1"
+    }
+  ],
+  "floating_button": [
+    {
+      "id": "1",
+      "title": "Share",
+      "image": "https://avsarhub.com/upload/floatingbutton/ic_search.png",
+      "url": "",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "title": "Message",
+      "image": "https://avsarhub.com/upload/floatingbutton/ic_message.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "title": "Share",
+      "image": "https://avsarhub.com/upload/floatingbutton/ic_share.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "title": "Home",
+      "image": "https://avsarhub.com/upload/floatingbutton/ic_home.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    }
+  ],
+  "tabs": [
+    {
+      "id": "1",
+      "title": "Home",
+      "image": "https://avsarhub.com/upload/tabs/ic_home.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "title": "Search",
+      "image": "https://avsarhub.com/upload/tabs/ic_search.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    },
+    {
+      "id": "3",
+      "title": "Profile",
+      "image": "https://avsarhub.com/upload/tabs/ic_profile.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    },
+    {
+      "id": "4",
+      "title": "Wishlist",
+      "image": "https://avsarhub.com/upload/tabs/ic_heart.png",
+      "url": "https://avsarhub.com/",
+      "status": "1"
+    }
+  ],
+  "user_agent": [
+    {
+      "id": "1",
+      "title": "Web Browser",
+      "android": "random",
+      "ios": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1",
+      "status": "1"
+    }
+  ]
+}
